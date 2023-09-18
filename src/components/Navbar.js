@@ -19,9 +19,13 @@ function Navbar() {
         </div>
         <div className="flex">
           <div className="flex items-center pr-12">
-            {linkList.map((e) => {
+            {linkList.map((e, i) => {
               return (
-                <Link className=" px-2 font-semibold text-lg" href={e.link}>
+                <Link
+                  className=" px-2 font-semibold text-lg"
+                  key={i}
+                  href={e.link}
+                >
                   {e.name}
                 </Link>
               );
