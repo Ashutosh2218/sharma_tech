@@ -2,26 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-image: url("/hero_bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.light_glass {
+  /* height: 200px;
+  width: 200px; */
+  /* background: rgba(216, 237, 255, 0.2); */
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.04),
+    rgba(255, 255, 255, 0.01)
+  );
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  /* border-radius: 10px; */
+}
+.dark_glass {
+  /* height: 200px;
+  width: 200px; */
+  /* background: rgba(216, 237, 255, 0.2); */
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 0.79),
+    rgba(0, 0, 0, 0.46)
+  );
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+.violet_glass {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(62, 32, 147, 0.89),
+    rgba(62, 32, 147, 0.84)
+  );
+}
+.light_violet_glass {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(126, 83, 249, 0.9),
+    rgba(126, 83, 249, 0.85)
+  );
+}
+.pink_glass {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(250, 148, 157, 0.85),
+    rgba(250, 148, 157, 0.8)
+  );
+}
+
+.icoon {
+  color: aqua;
 }
