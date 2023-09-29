@@ -7,7 +7,7 @@ import { url } from "inspector";
 
 export default function Home() {
   return (
-    <div className="main_body" style={{ backgroundImage: "url(/hero_bg.png)" }}>
+    <div className="main_body" style={{ backgroundImage: "url(hero_bg.png)" }}>
       <Navbar></Navbar>
 
       {/* Hero Section */}

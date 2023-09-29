@@ -10,6 +10,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.main_body {
+  /* background-image: url("/hero_bg.png"); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .light_glass {
   /* height: 200px;
   width: 200px; */
