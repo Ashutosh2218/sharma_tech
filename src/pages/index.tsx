@@ -35,7 +35,7 @@ export default function Home() {
           </div>
         </div>
         <img
-          src="/hero/coffee.png"
+          src="hero/coffee.png"
           className=" absolute left-[220px] -top-[110px]"
           alt=""
         />
