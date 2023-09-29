@@ -45,17 +45,17 @@ export default function Home() {
           alt=""
         />
         <img
-          src="/hero/half-blue-ball.png"
+          src="hero/half-blue-ball.png"
           className=" absolute top-[150px] left-[437px] z-10"
           alt=""
         />
         <img
-          src="/hero/plant.png"
+          src="hero/plant.png"
           className=" absolute top-[100px] right-[339px] z-10"
           alt=""
         />
         <img
-          src="/hero/red-ball.png"
+          src="hero/red-ball.png"
           className=" absolute top-[60px] right-[89px]"
           alt=""
         />
@@ -63,7 +63,7 @@ export default function Home() {
           <img src="/hero/graph.png" alt="" />
         </div>
         <img
-          src="/hero/black-ball.png"
+          src="hero/black-ball.png"
           className="absolute bottom-[115px] right-[31.75%]"
           alt=""
         />
