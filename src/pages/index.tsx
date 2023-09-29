@@ -1,11 +1,15 @@
 import Navbar from "../components/Navbar";
 // import HeroForm from "../components/HeroForm";
 import ContactForm from "../components/ContactForm";
+import bgImage from "../../public/hero_bg.png";
+import { url } from "inspector";
+// import { url } from "inspector";
 
 export default function Home() {
   return (
-    <div>
+    <div className="main_body" style={{ backgroundImage: "url(/hero_bg.png)" }}>
       <Navbar></Navbar>
+
       {/* Hero Section */}
       <div className="flex flex-col items-center  relative top-[270px] pb-[150px] mb-[320px]">
         <div className="light_glass h-[658px] w-[568px] p-12 pt-20 pl-20  rounded-xl relative right-10 z-30 flex flex-col  ">
