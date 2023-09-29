@@ -40,7 +40,7 @@ export default function Home() {
           alt=""
         />
         <img
-          src="/hero/blue-ball.png"
+          src="hero/blue-ball.png"
           className=" absolute top-2 right-[550px] z-10"
           alt=""
         />
