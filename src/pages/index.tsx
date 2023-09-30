@@ -1,9 +1,6 @@
 import Navbar from "../components/Navbar";
 // import HeroForm from "../components/HeroForm";
 import ContactForm from "../components/ContactForm";
-import bgImage from "../../public/hero_bg.png";
-import { url } from "inspector";
-// import { url } from "inspector";
 
 export default function Home() {
   return (
@@ -64,7 +61,7 @@ export default function Home() {
           alt=""
         />
         <div className="light_glass h-[180px] w-[180px] rounded-xl absolute top-[100px] right-[139px] z-30 flex  justify-center items-center">
-          <img src="/hero/graph.png" alt="" />
+          <img src="hero/graph.png" alt="" />
         </div>
         <img
           src="hero/black-ball.png"
@@ -72,18 +69,18 @@ export default function Home() {
           alt=""
         />
         <img
-          src="/hero/color-ball.png"
+          src="hero/color-ball.png"
           className="absolute top-[140px] right-[199px] z-10"
           alt=""
         />
         <img
-          src="/hero/color-ball.png"
+          src="hero/color-ball.png"
           className="absolute bottom-[175px] left-[35%] z-10"
           alt=""
         />
 
         <img
-          src="/hero/cred-card.png"
+          src="hero/cred-card.png"
           className="absolute top-[325px] left-[17.5%] z-10"
           alt=""
         />
@@ -97,7 +94,7 @@ export default function Home() {
           <div className=" grid  grid-cols-3 gap-8   ">
             <div className="dark_glass  flex flex-col  p-8 pr-12">
               <div className="  w-[70px] h-[70px] mb-5 bg-[#353535] rounded-full flex justify-center items-center relative left-3 ">
-                <img src="/home/services/webdev.svg" alt="" />
+                <img src="home/services/webdev.svg" alt="" />
               </div>
               <h1 className=" text-2xl text-white font-medium tracking-tighter  mb-3">
                 Web Development
@@ -109,7 +106,7 @@ export default function Home() {
             </div>
             <div className="dark_glass  flex flex-col  p-8 pr-12">
               <div className="  w-[70px] h-[70px] mb-5 bg-[#353535] rounded-full flex justify-center items-center relative left-3 ">
-                <img src="/home/services/appdev.svg" className=" h-10" alt="" />
+                <img src="home/services/appdev.svg" className=" h-10" alt="" />
               </div>
               <h1 className=" text-2xl text-white font-medium tracking-tighter  mb-3">
                 App Development
@@ -122,7 +119,7 @@ export default function Home() {
             <div className="dark_glass  flex flex-col  p-8 pr-12">
               <div className="  w-[70px] h-[70px] mb-5 bg-[#353535] rounded-full flex justify-center items-center relative left-3 ">
                 <img
-                  src="/home/services/accounting.svg"
+                  src="home/services/accounting.svg"
                   className=" h-12 relative bottom-1"
                   alt=""
                 />
@@ -137,7 +134,7 @@ export default function Home() {
             </div>
             <div className="dark_glass  flex flex-col  p-8 pr-12">
               <div className="  w-[70px] h-[70px] mb-5 bg-[#353535] rounded-full flex justify-center items-center relative left-3 ">
-                <img src="/home/services/tax.svg" alt="" />
+                <img src="home/services/tax.svg" alt="" />
               </div>
               <h1 className=" text-2xl text-white font-medium tracking-tighter  mb-3">
                 Tax Consultancy
@@ -149,7 +146,7 @@ export default function Home() {
             </div>
             <div className="dark_glass  flex flex-col  p-8 pr-12">
               <div className="  w-[70px] h-[70px] mb-5 bg-[#353535] rounded-full flex justify-center items-center relative left-3 ">
-                <img src="/home/services/compliance.svg" alt="" />
+                <img src="home/services/compliance.svg" alt="" />
               </div>
               <h1 className=" text-2xl text-white font-medium tracking-tighter  mb-3">
                 Compliance Management
@@ -161,7 +158,7 @@ export default function Home() {
             </div>
             <div className="dark_glass  flex flex-col  p-8 pr-12">
               <div className="  w-[70px] h-[70px] mb-5 bg-[#353535] rounded-full flex justify-center items-center relative left-3 ">
-                <img src="/home/services/startup.svg" alt="" />
+                <img src="home/services/startup.svg" alt="" />
               </div>
               <h1 className=" text-2xl text-white font-medium tracking-tighter  mb-3">
                 Startup Consultancy
@@ -198,7 +195,7 @@ export default function Home() {
               <div className="flex w-full justify-evenly">
                 <div className="  relative">
                   <img
-                    src="/home/latest/rajesh.png"
+                    src="home/latest/rajesh.png"
                     className=" rounded-xl"
                     alt=""
                   />
@@ -213,7 +210,7 @@ export default function Home() {
                 </div>
                 <div className=" relative ">
                   <img
-                    src="/home/latest/lms.png"
+                    src="home/latest/lms.png"
                     className=" rounded-xl"
                     alt=""
                   />
@@ -371,7 +368,6 @@ export default function Home() {
   );
 }
 /*
-
 
 
  */
